@@ -1,0 +1,5 @@
+name: 'news'
+type: module
+description: 'this is module for menu api testing'
+package: Custom
+core_version_requirement: ^10 || ^11

@@ -1,0 +1,8 @@
+uuid: 4f64d481-cc6c-4c59-8002-7b4ddcaf5440
+langcode: en
+status: true
+dependencies: {  }
+id: bannermenu
+label: Bannermenu
+description: ''
+locked: false

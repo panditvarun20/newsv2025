@@ -1,0 +1,6 @@
+name: 'dmd'
+type: module
+description: 'This is a module for drupal development'
+package: Custom
+core_version_requirement: ^10 || ^11
+   

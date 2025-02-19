@@ -1,0 +1,23 @@
+uuid: e86af7ba-d325-4e63-9bf1-98d60f9b759e
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: custom_style
+label: 'Custom Style'
+code: |-
+  .largeColor{Color:Blue;}
+  .largeColorRed{Color:Red;}
+media: all
+preprocess: true
+conditions:
+  'entity_bundle:node':
+    id: 'entity_bundle:node'
+    negate: false
+    context_mapping:
+      node: '@node.node_route_context:node'
+    bundles:
+      page: page
+contexts: {  }
+conditions_require_all: true

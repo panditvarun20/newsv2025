@@ -28,6 +28,7 @@ settings:
       - code
       - '|'
       - sourceEditing
+      - style
   plugins:
     ckeditor5_heading:
       enabled_headings:
@@ -58,6 +59,14 @@ settings:
         - '<h4 id>'
         - '<h5 id>'
         - '<h6 id>'
+    ckeditor5_style:
+      styles:
+        -
+          label: 'Larger Blue'
+          element: '<p class="largeColor">'
+        -
+          label: 'Larger Red'
+          element: '<p class="largeColorRed">'
 image_upload:
   status: true
   scheme: public

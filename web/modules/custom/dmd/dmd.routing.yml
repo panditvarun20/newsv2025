@@ -1,0 +1,7 @@
+dmd.example:
+  path: '/dmd/example'
+  defaults:
+    _title: 'Example'
+    _controller: '\Drupal\dmd\Controller\DmdController'
+  requirements:
+    _permission: 'access content'
