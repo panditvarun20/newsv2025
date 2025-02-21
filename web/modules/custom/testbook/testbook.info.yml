@@ -1,0 +1,7 @@
+name: "testbook"
+type: module
+description: "This is a test module for interview"
+core_version_requirement: ^10
+package: Custom
+dependencies:
+  - drupal:database
